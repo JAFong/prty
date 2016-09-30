@@ -10,6 +10,7 @@ class Team extends Component {
         const members = this.props.members.map((member, index) => {
             return (
                 <MemberProfile
+                    name={member.name}
                     categories={member.categories}
                     key={index}
                 />

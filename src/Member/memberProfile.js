@@ -11,6 +11,7 @@ class MemberProfile extends Component {
             let count = 0
             categories.push(
                 <div key={count}>
+                    <h3>{this.props.name}</h3>
                     <div>{category}</div>
                     <div>{this.props.categories[category]}</div>
                 </div>
